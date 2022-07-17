@@ -1,0 +1,64 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+header {
+    background-image: url('../images/apple-pie.jpg');
+    background-size: cover;
+    height: 700px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainTitle {
+    color:aliceblue
+}
+
+.mumQuote {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mumQuote img {
+    width: 300px;
+}
+
+
+.infoRecipe img {
+    width: 100px;
+}
+.ingredients {
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    margin-left: 50px;
+}
+
+
+ul {
+    list-style-type: "-"
+}
+
+.ingredients img {
+    width: 300px;
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+
+#timeToPrepare {
+    display: flex;
+    justify-content: center;
+}
+
+.process {
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.process h2 {
+    padding: 20px;
+}
